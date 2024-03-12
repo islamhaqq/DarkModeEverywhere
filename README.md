@@ -1,4 +1,4 @@
-# Dark Mode Everywhere Extension
+# Dark Mode Everywhere! Browser (Chrome) Extension
 
 ![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/dcfe60d8-1df6-407d-aeab-75c09f1a7bee)
 
