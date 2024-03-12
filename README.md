@@ -1,5 +1,7 @@
 # Dark Mode Everywhere! Browser (Chrome) Extension
 
+![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/9be3b8d5-4e94-4831-9184-2eaf7ffe6eee)
+
 ![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/dcfe60d8-1df6-407d-aeab-75c09f1a7bee)
 
 ![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/9fc044ae-94be-423c-8348-690cc14418df)
@@ -8,8 +10,6 @@
 ![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/bec28342-80f1-41a2-b6d5-6614f8989ff7)
 
 ![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/42dd7c14-ee5e-4b8d-8036-8052a840f79f)
-
-![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/9be3b8d5-4e94-4831-9184-2eaf7ffe6eee)
 
 
 ## Description
