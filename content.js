@@ -1,4 +1,13 @@
 (function() {
+    const hostname = window.location.hostname;
+
+    function shouldApplyDarkMode(callback) {
+        chrome.storage.local.get(['darkModeExclusions'], function(result) {
+            const exclusions = result.darkModeExclusions || [];
+            callback(!exclusions.includes(hostname));
+        });
+    }
+
     // Function to check if the current theme is dark
     function isDarkTheme() {
         const bgColor = getComputedStyle(document.body).backgroundColor;
@@ -29,13 +38,17 @@
     // Main logic to determine if dark mode should be applied
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => {
-            if (!isDarkTheme()) {
+            shouldApplyDarkMode(apply => {
+                if (apply && !isDarkTheme()) {
+                    applyDarkMode();
+                }
+            });
+        });
+    } else {
+        shouldApplyDarkMode(apply => {
+            if (apply && !isDarkTheme()) {
                 applyDarkMode();
             }
         });
-    } else {
-        if (!isDarkTheme()) {
-            applyDarkMode();
-        }
     }
 })();
