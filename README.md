@@ -1,5 +1,15 @@
 # Dark Mode Everywhere Extension
 
+![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/dcfe60d8-1df6-407d-aeab-75c09f1a7bee)
+
+![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/9fc044ae-94be-423c-8348-690cc14418df)
+
+
+![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/bec28342-80f1-41a2-b6d5-6614f8989ff7)
+
+![image](https://github.com/SyedAman/DarkModeChromeExtension/assets/11065634/42dd7c14-ee5e-4b8d-8036-8052a840f79f)
+
+
 ## Description
 
 Dark Mode Everywhere is a browser extension that dynamically applies a dark theme to all websites you visit, reducing eye strain and improving your browsing experience in low-light conditions. It intelligently detects pages with light backgrounds and inverts colors to a dark mode, while preserving the original theme on websites that already implement their own dark mode.
@@ -29,18 +39,6 @@ After installation, the extension will automatically start converting light-them
 
 Contributions are welcome! Please feel free to submit pull requests, report bugs, and suggest features.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 Thanks to all the contributors who spend time to improve this project.
-
-## Contact
-
-For support or queries, reach out to [contact@youremail.com](mailto:contact@youremail.com).
-
----
-
-Note: This project is open-source and not affiliated with any commercial entities. The extension has been tested on multiple websites, but compatibility cannot be guaranteed for all web content.
