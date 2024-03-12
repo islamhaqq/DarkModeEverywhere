@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    button {
-      width: 100px;
-      height: 30px;
-      margin: 20px;
-    }
-  </style>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 15px;
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+        }
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition-duration: 0.4s;
+        }
+        button:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-  <button id="toggleDarkMode">Toggle</button>
-  <button id="toggleSite">Toggle for This Site</button>
-  <script src="popup.js"></script>
+    <h1>Dark Mode Toggle</h1>
+    <button id="toggleDarkMode">Toggle Dark Mode</button>
+    <button id="toggleSite">Enable/Disable for This Site</button>
+    <script src="popup.js"></script>
 </body>
 </html>
